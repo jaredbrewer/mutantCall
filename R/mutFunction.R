@@ -9,7 +9,7 @@
 #' @export
 #' @import sangerseqR
 #' @examples
-#' mutantCaller()
+#' mutantCaller(test.seq = './24A_005_JB-T5_JB61_E01.ab1', ref = './24A_001_JB-TM_JB61_A01.ab1', length = 400)
 #' P1               101 ACGACCAGCTCCAGGAGTACGTCCAGCAGACCGTCG--GCCCAGAAACAC    148
 #'                      ||||||||||||||||||||||||||||||||||||  ||||||||||||
 #' S1               101 ACGACCAGCTCCAGGAGTACGTCCAGCAGACCGTCGCAGCCCAGAAACAC    150
