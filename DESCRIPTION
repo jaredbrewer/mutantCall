@@ -1,0 +1,13 @@
+Package: mutantCaller
+Title: Automatically calls heterozygous mutants from Sanger sequencing
+Version: 0.0.1
+Authors@R: person("Jared", "Brewer", email = "jared.brewer@duke.edu", role = c("aut", "cre"))
+Description: Using the dependencies from sangerseqR (Hill & Demarest 2014), this package automates the generation of aligned sequences for the purposes of calling indels in Sanger sequencing data. The goal is to require minimum user input to produce reliable and readable results. 
+biocViews : sangerseqR
+Depends: R (>= 3.4.2)
+Imports:
+  sangerseqR
+License: None
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
